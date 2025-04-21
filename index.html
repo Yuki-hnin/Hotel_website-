@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+    <title>Lavender Hotel</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav__bar">
+                <div class="logo">
+                    <a href="#"><img src="logo.png" alt="logo"></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn nav__btn">Book Here</button>
+        </nav>
+        <div class="section__container header__container" id="home">
+            <p>Arrive as Guests, Leave as Friends</p>
+            <h1>Welcome To <br />Hotel <span>Lavdender Hotel</span> </h1>
+        </div>
+
+    </header>
+
+    <section class="section__container booking__container">
+        <form action="/" class="booking__form">
+            <div class="input__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div>
+                    <label for="check-in">Registration</label>
+                    <input type="text" placeholder="registration">
+                </div>
+            </div> 
+            <div class="input__group">
+                <span><i class="ri-calendar-line"></i></span>
+                <div>
+                    <label for="check-out">VERIFICATION</label>
+                    <input type="text" placeholder="verification">
+                </div>
+            </div> 
+            <div class="input__group">
+                <span><i class="ri-user-fill"></i></span>
+                <div>
+                    <label for="guest">CUSTOMERS</label>
+                    <input type="text" placeholder="customers">
+                </div>
+            </div>
+            <div class="input__group input__btn">
+                <button class="btn">EXIT</button>
+            </div>
+        </form>
+    </section>
+    <section class="section__container about__container" id="about">
+        <div class="about__image">
+            <img src="bg.img.jpg" alt="">
+        </div>
+        <div class="about__content">
+            <p class="section__subheader">About Us</p>
+            <h2 class="section__header">DISCOVER A PLACE BEYOND TIME </h2>
+            <p class="section__description">
+                Nestled in the heart of the city,Lavender Hotel offers an elegant escape for travelers and locals alike. Enjoy luxury rooms, world-class amenities, and warm hospitality designed to make your stay unforgettable
+            </p>
+            <div class="about__btn">
+                <button class="btn">Discover more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container room__container">
+        <p class="section__subheader">Your Perfect Stay Rooms</p>
+        <h2 class="section__header">Immerse yourself in the charm of culture, nature, and heritage trails.</h2>
+        <div class="room__grid">
+            <!-- Room 1 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="Room1.jpg" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>SUPERIOR QUEEN</h4>
+                    <h5>SIZE : 14 SQM <br>MAX OCCUPACY : 2 ADULTS </h5></h5>
+                    <button class="btn">Purchase</button>
+                </div>
+            </div>
+        
+            <!-- Room 2 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="Room2.jpg" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Superior Queen with view</h4>
+                    <h5>Size : 14 sqm <br> Max Occupancy : 2 Adults </h5>
+                    <button class="btn">Purchase</button>
+                </div>
+            </div>
+        
+            <!-- Room 3 -->
+            <div class="room__card">
+                <div class="room__card__image">
+                    <img src="Room3.jpg" alt="rooms">
+                    <div class="room__card__icons">
+                        <span><i class="ri-poker-hearts-fill"></i></span>
+                        <span><i class="ri-paint-fill"></i></span>
+                        <span><i class="ri-shield-star-line"></i></span>
+                    </div>
+                </div>
+                <div class="room__card__details">
+                    <h4>Superior Twin
+                    </h4>
+                    <h5>Size : 14 sqm  <br> Max Occupancy : 2 Adults</h5>
+                    <button class="btn">Purchase</button>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <section class="service" id="service">
+        <div class="section__container service__container">
+            <div class="service__content">
+                <p class="section__subheader">SERVICES</p>
+                <h2 class="section__subheader">Stay Luxury.</h2>
+                <ul class="service__list">
+                    <li>
+                        <span><i class="ri-shield-star-fill"></i></span>
+                        Complimentary High-speed WIFI
+                    </li>
+                    <li>
+                        <span><i class="ri-24-hours-line"></i></i></span>
+                        Gym
+In-
+                    </li>
+                    <li>
+                        <span><i class="ri-customer-service-line"></i></span>
+                        Swimming Pool
+                    </li>
+                    <li>
+                        <span><i class="ri-map-2-line"></i></span>
+                        Mini-refrigerator and hairdryer
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container banner__container">
+        <div class="banner__content">
+            <div class="banner__card">
+                <h4>25+</h4>
+                <p>Available Rooms </p>
+            </div> 
+            <div class="banner__card">
+                <h4>350+</h4>
+                <p>Reserved</p>
+            </div> 
+            <div class="banner__card">
+                <h4>600+</h4>
+                <p>Good Reviews</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="explore" id="explore">
+        <p class="section__subheader">Explore</p>
+        <h2 class="section__header">The better days with Lavender.</h2>
+        <div class="explore__bg">
+            <div class="explore__content">
+                <p class="section__description">12 DECEMBRE 2025</p>
+                <h4>Blackpink Concert will be held soon</h4>
+                <button class="btn">next</button>
+            </div>
+        </div>
+        
+    </section>
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo">
+                    <a href="#home"><img src="logo.png" alt="Hotel Logo"></a>
+                </div>
+                <p class="section__description">
+                    Luxury, comfort, and elegance — all in one place. Welcome to Lavender Hotel.
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="footer__col">
+                <h4>CONTACT US</h4>
+                <ul class="footer__links">
+                    <li><a href="#">lavender@info.com</a></li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                    <a href="#"><i class="ri-google-fill"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright(c) Hnin
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
