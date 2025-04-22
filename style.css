@@ -3,7 +3,7 @@
     --primary-color: #1d012a;
     --primary-color-dark: #330e54;
     --text-dark: #350e37;
-    --text-light: #625665;
+    --text-light: #32103a;
     --white: #ffffff;
     --max-width: 1200px;
 }
@@ -463,14 +463,14 @@
   transition: 0.3s;
 }
 .footer__socials a:hover{
-  color: #3e0b52;
+  color: #524159;
   opacity: 1;
 }
 .footer__bar{
   padding: 1rem;
   text-align: center;
   font-size: .9rem;
-  color: var(--text-light);
+  color: #584c5d;
 }
 
 @media(width > 576px){
