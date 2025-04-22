@@ -95,7 +95,7 @@
   }
   
   .header {
-    background-image: url("bg.jpg");
+    background-image: url("Images/bg.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; 
@@ -306,7 +306,7 @@
 }
 
 .service{
-  background-image: url(pool.jpg);
+  background-image: url(Images/pool.jpg);
   background-position: left center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,7 +391,7 @@
     minmax(1rem, 1fr)
     minmax(0, var(--max-width))
     minmax(1rem, 1fr);
-  background-image: url("bp.jpg");
+  background-image: url("Images/bp.jpg");
   background-image: linear-gradient();
   background-size:cover;
   background-repeat: no-repeat;
